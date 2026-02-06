@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My Vinni 💘</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id="noSound" src="no-song.mp3" preload="auto"></audio>
+    <audio id="yesSound" src="yes-song.mp3" preload="auto"></audio>
+
+    <div id="hearts-container"></div>
+
+    <div class="main-wrapper">
+        <div class="card shadow-animate" id="askCard">
+            <div class="top-emoji">💝</div>
+            <h1>Hey <span class="highlight" id="who">Vinni</span>,</h1>
+            <p class="question">Will you be my Valentine?</p>
+            
+            <div class="btn-group" id="playground">
+                <button class="yes-btn" id="yesBtn">YES! 😍</button>
+                <div class="no-zone">
+                    <button class="no-btn" id="noBtn">No 🥺</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card hidden" id="yayCard">
+            <h2 class="yay-msg">YAY! Love you Vinni! 💖</h2>
+            <div class="image-frame">
+                <img src="./rishi.jpg" alt="Our Moment" onerror="this.src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueW9idm5yeGZqZnd4eGZyeGZyeGZyeGZyeGZyeGZyeGZyeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KzM1lAfJpx3o3b3EDb/giphy.gif'">
+            </div>
+            <p class="final-text">Best. Decision. Ever! ✨</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
